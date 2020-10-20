@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div id="colorlib-main">
+    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+        <div class="container-fluid px-0">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="{% static 'images/python-bg-1.jpg' %}" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="{% static 'images/python-bg-2.png' %}" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+              <div class="container my-4 align-content-center">
+                <!--Grid row-->
+                <div class="row text-center">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <h2 class="my-3" style="font-family: cursive; color: #f3c623"><b>About Me</b></h2>
+
+                    <img class="rounded-circle z-depth-2 border border-warning" style="border: 2px solid; height: 200px; width: 200px;" alt="100x100" src="{% static 'images/dp.jpg' %}"
+                      data-holder-rendered="true">
+
+                  </div>
+                  <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <div class="card-body my-3 border border-warning" style="border-radius: 5%;">
+                 <div class="col-md-12 text-center">
+                     <h3 class="my-3" style="font-family: cursive; color: #f3c623"><b>Skills...</b></h3>
+                 </div>
+                     <div class="container">
+                            <div class="row text-center">
+                                <div class="col">
+                                 <div class="counter" style="background-color: black">
+                                  <i class="fa fa-code fa-2x"></i>
+                                  <h2 class="timer count-title count-number" data-to="75" data-speed="1500"></h2>
+
+                                   <p class="count-text ">HTML / Bootstrap</p>
+                                 </div>
+                                </div>
+                                <div class="col">
+                                    <div class="counter" style="background-color: black">
+                                      <i class="fa fa-css3 fa-2x"></i>
+                                      <h2 class="timer count-title count-number" data-to="60" data-speed="1500"></h2>
+                                      <p class="count-text ">CSS</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="counter" style="background-color: black">
+                                      <i class="fa fa-lightbulb-o fa-2x"></i>
+                                      <h2 class="timer count-title count-number" data-to="80" data-speed="1500"></h2>
+                                      <p class="count-text ">Python & Django</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                  <div class="counter" style="background-color: black">
+                                      <i class="fa fa-bug fa-2x"></i>
+                                      <h2 class="timer count-title count-number" data-to="50" data-speed="1500"></h2>
+                                      <p class="count-text ">JavaScript</p>
+                                  </div>
+                                </div>
+
+                            </div>
+                    </div>
+                </div>
+
+                <div class="card-body my-4 border border-warning" style="border-radius: 5%;">
+                    <div class="col-md-12 text-center">
+                     <h3 class="my-3" style="font-family: cursive; color: #f3c623"><b>Education...</b></h3>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li>Diploma in Computer Scince & Engineering (2017 - 2020) in 'Govt. Polytechnic'</li>
+                            <li>Intermediate from 'Arvind Inter College-Lucknow' (UP Board) with (72.8%)</li>
+                            <li>High School from 'Arvind Inter College-Lucknow' (UP Board) with (77.5%)</li>
+                        </ul>
+                    </div>
+                </div>
+                  <div class="card-body my-4 border border-warning" style="border-radius: 5%;">
+                    <div class="col-md-12 text-center">
+                     <h3 class="my-2" style="font-family: cursive; color: #f3c623"><b>Summer Internship...</b></h3>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li>Two Months internships in 'Python Programming'</li>
+                            <li>Three Months internships in 'Python-Django Development'</li>
+                        </ul>
+                    </div>
+                  </div>
+
+
+                  <div class="card-body my-4 border border-warning" style="border-radius: 5%;">
+                    <div class="col-md-12 text-center">
+                     <h3 class="my-2" style="font-family: cursive; color: #f3c623"><b>Personal Info...</b></h3>
+                    </div>
+                    <div class="col-md-12">
+                       <div class="row">
+                        <div class="col-md-4 text-center">Email Id :</div>
+                        <div class="col-md-4 text-center">dipanshupandey765@gmail.com</div>
+                       </div>
+                    </div>
+                    <div class="col-md-12">
+                       <div class="row">
+                        <div class="col-md-4 text-center">Contact No :</div>
+                        <div class="col-md-4 text-center">(+91) 7388975483</div>
+                       </div>
+                    </div>
+                    <div class="col-md-12">
+                       <div class="row">
+                        <div class="col-md-4 text-center">Address :</div>
+                        <div class="col-md-6 text-center">Garhi Kanaura, Lucknow(U.P.) -226011</div>
+                       </div>
+                    </div>
+                    <div class="col-md-12">
+                       <div class="row">
+                        <div class="col-md-4 text-center">Marital Status :</div>
+                        <div class="col-md-4 text-center">Single</div>
+                       </div>
+                    </div>
+                    <div class="col-md-12">
+                       <div class="row">
+                        <div class="col-md-4 text-center">Date of Birth & Age :</div>
+                        <div class="col-md-4 text-center">05/November/1998, 22 Years</div>
+                       </div>
+                    </div>
+                  </div>
+              </div>
+
+            <div class="col-md-12 text-right">
+                <button class="btn btn-warning"><a href="{% static 'resume.pdf' %}" style="color: #000;" download> Download CV</a></button>
+            </div>
+        </div>
+
+    </section>
+</div>
+{% endblock %}
