@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 import smtplib
 from pathlib import Path
+import django_heroku
 import gmail as gmail
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -29,7 +30,7 @@ SECRET_KEY = 'by-o_e#@2m-t4_*&4x6be+745tdnb9eic+dp(!wg6hw)xyy-q+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','dipanshuresume.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','dipanshuresume.herokuapp.com/']
 
 
 # Application definition
