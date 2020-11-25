@@ -97,7 +97,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'thedevelopershub05@gmail.com'
-EMAIL_HOST_PASSWORD = '7388975483'
+EMAIL_HOST_PASSWORD = '*************'
 
 
 # Password validation
