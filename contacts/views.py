@@ -16,9 +16,9 @@ def contact(request):
 
         # Send email
         send_mail(
-            'Someones wants to talk to you',
+            'Someone sends an inquiry on your portfolio',
             'There has been an inquiry on your Portfolio. Sign into the admin panel for more info',
-            'dipanshupandey765@outlook.com',
+            'dipanshupandey765@gmail.com',
             ['thedevelopershub05@gmail.com'],
             fail_silently=False
         )
