@@ -30,7 +30,7 @@ SECRET_KEY = 'by-o_e#@2m-t4_*&4x6be+745tdnb9eic+dp(!wg6hw)xyy-q+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://dipanshu765-portfolio.zeet.app']
+ALLOWED_HOSTS = ['https://dipanshu5.pythonanywhere.com']
 
 
 # Application definition
